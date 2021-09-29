@@ -56,13 +56,26 @@
 		"wpackagist-plugin/nginx-helper",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified",
 		"humanmade/s3-uploads",
-		"wpackagist-plugin/cloudflare-flexible-ssl"
+		"cloudflare-flexible-ssl"
 	  ],
 	  "web/app/plugins/{$name}/": [
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"appointment-hour-booking",
+		"child-theme-configurator",
+		"classic-editor",
+		"cloudflare-flexible-ssl",
+		"custom-css-js",
+		"custom-script-integration",
+		"loginpress",
+		"siteorigin-panels",
+		"so-widgets-bundle",
+		"updraftplus",
+		"wp-optimize"
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+		"thehandymannearyou-theme",
+		"lz-cleaning-services"
 	  ]
 	},
 	"dropin-paths": {
